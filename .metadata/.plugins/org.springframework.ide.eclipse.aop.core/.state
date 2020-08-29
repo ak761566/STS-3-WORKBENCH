@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="extendXsl"/>
+<aop-project name="restClient"/>
+<aop-project name="course-api"/>
+<aop-project name="restApiTest"/>
+<aop-project name="dataAnalytics"/>
+</aop-reference-model>

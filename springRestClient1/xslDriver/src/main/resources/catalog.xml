@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE catalog PUBLIC "-//OASIS//DTD XML Catalogs V1.1//EN" "http://www.oasis-open.org/committees/entity/release/1.1/catalog.dtd">
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<!-- XSDs linked through primary catalog -->
+ <!-- catalog entry for good-note1.xml -->
+<rewriteSystem 
+        systemIdStartString="D:/car/rsc_1.0/dtd/" 
+        rewritePrefix="C:/kumar/CAR/25-11-2019/DTD"
+    />
+
+    <!-- catalog entry for good-note2.xml, good-note3.xml, bad-note1.xml, bad-note2.xml -->
+    <rewriteURI 
+        uriStartString="http://stackoverflow.com/2014/09/xsd" 
+        rewritePrefix="./ArbitraryFolder/schemas"
+    />
+
+    <!-- add a second catalog as a further test:
+         XSL will be resolved through it -->
+    <nextCatalog 
+        catalog="./ArbitraryFolder/catalog.xml"
+    />
+</catalog>

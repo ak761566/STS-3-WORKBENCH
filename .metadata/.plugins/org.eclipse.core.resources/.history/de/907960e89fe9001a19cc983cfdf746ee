@@ -1,0 +1,18 @@
+package com.mytestapp.saxonTransform;
+
+import java.util.Map;
+
+import javax.xml.transform.URIResolver;
+
+import net.sf.saxon.TransformerFactoryImpl;
+
+public class xmlTransformation {
+
+	public static void saxonTransform(String xsltDir, String source, String xslt, String dest, URIResolver alt, Map<String, String> params) {
+		
+		TransformerFactoryImpl f = new net.sf.saxon.TransformerFactoryImpl();
+		f.setAttribute("http://saxon.sf.net/feature/version-warning", Boolean.FALSE);
+		
+		
+	}
+}
